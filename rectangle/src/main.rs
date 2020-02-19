@@ -1,6 +1,4 @@
 fn main() {
-    println!("Hello, world!");
-
     let rect = Rectangle {
         width: 30,
         height: 50,
@@ -10,7 +8,7 @@ fn main() {
     println!("rect is {:#?}", rect);
 
     let rect = Rectangle::square(5);
-    println!("area of rect is {}", rect.area());
+    println!("area of square(5) is {}", rect.area());
 
     let rect1 = Rectangle {
         width: 30,
